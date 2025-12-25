@@ -1,0 +1,47 @@
+# 基于 Visual Studio / MSVC 默认格式
+BasedOnStyle: Microsoft
+
+# 缩进与空格
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+
+# 大括号风格（VS 默认：函数、类、命名空间都换行）
+BreakBeforeBraces: Allman
+
+# 行宽
+ColumnLimit: 120
+
+# 空格规则
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInParentheses: false
+SpacesInAngles: false
+SpacesInSquareBrackets: false
+SpacesInContainerLiterals: true
+
+# 指针与引用
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# 换行规则
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+
+# include 排序（VS 默认：不强制排序）
+SortIncludes: false
+
+# 命名空间
+NamespaceIndentation: All
+
+# 其他 VS 风格细节
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
